@@ -1,0 +1,32 @@
+ /* Add a gray right border to all list items, except the last item (last-child) */
+ .Header li {
+    border-right: 1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+} 
+
+.box1{
+    border-style:double;
+    padding-right: 50px;
+    text-align: left;
+
+}
+blockquote { 
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 33%;
+    margin-right: 23%;
+    
+}
+#profile{
+    margin-left:33%;
+    margin-right:33%;
+}
+.MainFrame tr td{
+
+    width:33%;
+
+}
