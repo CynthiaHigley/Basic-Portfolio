@@ -1,3 +1,39 @@
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background:rgb(75, 153, 179);
+}
+
+.Header li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+.Header li:last-child {
+    border-right: none;
+}
+
+.Header li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.Header li a:hover:not(.active) {
+    background:lightblue;
+}
+
+.active {
+    background:blue;
+}
+
+
+
  /* Add a gray right border to all list items, except the last item (last-child) */
  li {
     border-right: 1px solid #bbb;
@@ -30,11 +66,14 @@ blockquote {
     width:33%;
 
 }
+
+   
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: red;
+    background-color: blue;
     color: white;
     text-align: center;
+    }
